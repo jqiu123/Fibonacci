@@ -1,5 +1,5 @@
 import static org.junit.Assert.*;
-
+import junit.framework.TestCase;
 import java.util.Arrays;
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class TestFibonacciParametized
+public class TestFibonacciParametized extends TestCase
 {
 	private final int input, expected;	
 	

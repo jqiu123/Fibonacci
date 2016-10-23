@@ -1,8 +1,8 @@
 import static org.junit.Assert.assertEquals;
-
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class TestFibonacci
+public class TestFibonacci extends TestCase
 {
 	@Test
 	public void test()
