@@ -1,7 +1,0 @@
-<fileset dir="${WORKSPACE}/Src" casesensitive="yes">
-  <patternset id="non.test.sources">
-    <include name="**/*.java"/>
-    <exclude name="**/*Test*"/>
-  </patternset>
-</fileset>
-
