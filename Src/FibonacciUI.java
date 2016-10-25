@@ -2,7 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class FibonacciUI {
+public class FibonacciUI 
+{
 
 	/**
 	 * Main entry point for the UI.
