@@ -1,11 +1,11 @@
 public class Fibonacci
-{
-	
+{	
 	public static long calculate(long i)
 	{	
 		if (i < 2)
-			return i;
-
+		{
+		   return i;
+		}
 		long a = 0;
 		long b = 1;
 		long fib = 1;
